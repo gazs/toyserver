@@ -1,0 +1,11 @@
+{
+  "name":"toyserver",
+  "preferGlobal": "true",
+  "version": "0.0.1",
+  "main":"./toyserver.coffee",
+  "dependencies": {
+    "express": "2.5.2",
+    "coffee-script": "1.1.2"
+  },
+  "bin": {"toyserver":"./toyserver.coffee"}
+}
